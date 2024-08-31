@@ -1,0 +1,47 @@
+*{
+    background-color: #111;
+    color:#fff; 
+    margin : 0;
+    padding : 0;
+    box-sizing :border-box;
+}
+.name{
+    font-size: 1rem;
+    font-weight: 700;
+    font-family:Arial, Helvetica, sans-serif;
+    color:yellow;
+
+}
+.banner{
+    background-image: url("https://img.freepik.com/free-photo/medium-shot-lesbian-couple-outdoors_23-2150889550.jpg?semt=ais_hybrid");
+    background-size: cover;
+    background-position: center center;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+.posters{
+    display:flex;
+    overflow-y:  hidden;
+    overflow-x:  scroll;
+    margin: 1% 0.5%;
+}
+.posters::-webkit-scrollbar{
+    display: none;
+
+}
+.poster{
+    margin: 2%;
+    border-radius:  0.4%;
+
+}
+h1{
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2% 0% 0% 2%;
+}
+h3{
+    text-align: center;
+    font-size: 25px;
+    font-weight:400 ;
+}
